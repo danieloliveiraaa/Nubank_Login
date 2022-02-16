@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#8B05BE;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    box-shadow: 6px 6px 7px 0px #00000090;
+}
+
+.nu_logo{
+    width: 150px;
+    height: 150px;
+    position:static;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: 'Sarala',sans-serif;
+}
+
+.label-float input {
+    width: 100%;
+    padding: 6px 6px;
+    display: inline-block; 
+    border: 0;
+    border-bottom: 1px solid #00000050;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 17px;
+    font-family: 'Sarala',sans-serif;
+    border-radius: 0;
+    
+}
+
+#cpf {
+    border-bottom: 1px solid #ff6b6170;
+}
+
+.label-float{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+.label-float #cpf::placeholder{
+    font-size: 17px;
+    color: #ff6b61;
+    font-style:italic;
+}
+
+.label-float #senha::placeholder{
+    font-size: 17px;
+    font-style:italic;
+}
+
+
+.olho{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.olho:hover{
+    background-image: url("img/aberto.png");
+}
+
+.botao-entrar{
+    background: transparent;
+    border-color: #8B05BE;
+    border-style:solid;
+    color: #8B05BE;
+    padding: 10px;
+    font-size: 11pt;
+    font-family: 'Sarala',sans-serif;
+    font-style:inherit;
+    font-weight: 900;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    height: 60px;
+    width: 310px;
+}
+
+button:hover{
+    background-color: #8B05BE;
+    /*TRANSIÇÃO ANTES DE MUDAR A COR TOTALMENTE*/
+    color: #ffffff;
+    transition: all .7s ease-out; 
+}
+
+
+
+/*#8B05BE ROXO NU #81259D */
+
+.ancoras{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Sarala',sans-serif;
+    transition: all .8s ease-out;
+}
+
